@@ -1,18 +1,32 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# PHP / web app
+/vendor
+/node_modules
+/.env
+/.env.backup
+.env.testing
+.env.local
+.env.*.local
+.phpunit.result.cache
+/composer.lock
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
+/dist
+/build
+/coverage
+/out
+/logs
+*.log
+/error_log
 
-# Other files and folders
-.settings/
+# OS / editor metadata
+.DS_Store
+Thumbs.db
+/.idea
+/.vscode
+*.swp
+*.swo
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Uploads and local media assets
+/uploads
+/tmp
