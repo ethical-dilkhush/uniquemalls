@@ -23,3 +23,7 @@ Mall recharge web application with admin tools and payment workflows.
 
 Source, issues, and project context:
 https://github.com/ethical-dilkhush/uniquemalls
+
+## Tags / keywords
+
+mall, php, recharge, web-application
